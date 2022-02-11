@@ -30,7 +30,10 @@ const PAGES = {
     "content": `
       <div class="d-flex m-2 bg-secondary rounded">
         <div id="text-content">
-        
+          <p>
+            This page is still under construction. Please
+            excuse us during our redesign!
+          </p>
         </div>
       </div>
     `
@@ -42,7 +45,10 @@ const PAGES = {
     "content": `
       <div class="d-flex m-2 bg-secondary rounded">
         <div id="text-content">
-
+          <p>
+            This page is still under construction. Please
+            excuse us during our redesign!
+          </p>
         </div>
       </div>
     `
@@ -54,7 +60,10 @@ const PAGES = {
     "content": `
       <div class="d-flex m-2 bg-secondary rounded">
         <div id="text-content">
-
+          <p>
+            This page is still under construction. Please
+            excuse us during our redesign!
+          </p>
         </div>
       </div>
     `
@@ -64,10 +73,11 @@ const PAGES = {
     "link": "?wmmt",
     "title": "Wangan Midnight Maximum Tune", 
     "content": `
-      <div class="d-flex m-2 bg-secondary rounded">
-        <div id="text-content">
-
-        </div>
+      <div id="text-content">
+        <p>
+          This page is still under construction. Please
+          excuse us during our redesign!
+        </p>
       </div>
     `
   }
