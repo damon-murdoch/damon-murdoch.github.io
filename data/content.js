@@ -16,8 +16,7 @@ const PAGES = {
         <p>
           I've created this website to host all of the resources I've created
           related to these hobbies such as a Pokémon type coverage calculator
-          and EV spread optimiser, and even a Maximum Tune emulator save editor. 
-          I will also be hosting links to my personal Pokémon blog and socials.
+          and EV spread optimiser, and even a Maximum Tune emulator save editor.
           To see these resources, please check out the links above for more 
           information and links to the individual resources.
         </p>
