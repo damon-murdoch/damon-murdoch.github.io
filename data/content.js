@@ -176,13 +176,13 @@ const PAGES = {
                   </a>
                 </h4>
                 <p>
-                A dockerized container for the Pokémon Showdown! Web Server. 
-                This container is build upon the standard nodejs docker library 
-                image, and pulls the latest version of the Pokémon Showdown! 
-                server image when built. It also performs a pull request on 
-                each time launching the container to ensure your server stays 
-                up to date. For more information, please see the docker hub
-                page 
+                  A dockerized container for the Pokémon Showdown! Web Server. 
+                  This container is build upon the standard nodejs docker library 
+                  image, and pulls the latest version of the Pokémon Showdown! 
+                  server image when built. It also performs a pull request on 
+                  each time launching the container to ensure your server stays 
+                  up to date. For more information, please see the docker hub
+                  page 
                   <a class='link-light' href='https://hub.docker.com/r/scrubbs/Pokémon-showdown-docker'>
                     here.
                   </a>
