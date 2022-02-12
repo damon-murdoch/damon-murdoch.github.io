@@ -244,7 +244,7 @@ const PAGES = {
       <div class="m-2 bg-secondary rounded">
         <div id="text-content">
           <p>
-            This page is for content relating to the Pokemon
+            This page is for content relating to the Pokémon
             Trading Card Game. In official competitive play, 
             decks are required to have exactly 60 cards and 
             must only contain cards which are legal within
@@ -256,19 +256,19 @@ const PAGES = {
           </p>
           <p>
             I have personally competed in the competitive 
-            Pokemon TCG scene since 2016, however I have 
+            Pokémon TCG scene since 2016, however I have 
             been unable to play any large events due to
             VGC and TCG running at the same time. However,
             I have recently started developing software and
-            resources for the Pokemon TCG. These resoruces
+            resources for the Pokémon TCG. These resoruces
             are listed below.
           </p>
         </div>
         <ul>
           <li>
             <h4>
-              <a class='link-light' href='http://www.dragapult.xyz/pokemon-decks'>
-                Pokemon Decks
+              <a class='link-light' href='http://www.dragapult.xyz/Pokémon-decks'>
+                Pokémon Decks
               </a>
             </h4>
             <p>
@@ -281,7 +281,7 @@ const PAGES = {
           <li>
             <h4>
               <a class='link-light' href='http://www.dragapult.xyz/teamsheet-filler'>
-                (Advanced) Pokemon Trading Card Game Online to JSON Converter
+                (Advanced) Pokémon Trading Card Game Online to JSON Converter
               </a>
             </h4>
             <p>
