@@ -203,33 +203,33 @@ const PAGES = {
                 </p>
               </li>
               <li>
-              <h4>
-                <a class='link-light' href='#'>
-                  Archived Tools
-                </a>
-              </h4>
-              <p>
-                These tools have all been archived, and are no longer
-                being maintained. They are only listed here for legacy purposes.
-              </p>
-              <ul>
-                <li>
-                  <a class='text-light' href='https://github.com/damon-murdoch/pkmtools'>
-                    Pokémon Tools (Superceded by Spread Optimiser)
+                <h4>
+                  <a class='link-light' href='#'>
+                    Archived Tools
                   </a>
-                </li>
-                <li>
-                  <a class='text-light' href='https://github.com/damon-murdoch/jtk-coverage'>
-                    JTK Coverage Calculator (Superceded by Coverage Calculator)
-                  </a>
-                </li>
-                <li>
-                  <a class='text-light' href='https://github.com/damon-murdoch/weakness-calculator'>
-                    Pokémon Weakness Calculator (Superceded by Coverage Calculator)
-                  </a>
-                </li>
-              </ul>
-            </li>
+                </h4>
+                <p>
+                  These tools have all been archived, and are no longer
+                  being maintained. They are only listed here for legacy purposes.
+                </p>
+                <ul>
+                  <li>
+                    <a class='text-light' href='https://github.com/damon-murdoch/pkmtools'>
+                      Pokémon Tools (Superceded by Spread Optimiser)
+                    </a>
+                  </li>
+                  <li>
+                    <a class='text-light' href='https://github.com/damon-murdoch/jtk-coverage'>
+                      JTK Coverage Calculator (Superceded by Coverage Calculator)
+                    </a>
+                  </li>
+                  <li>
+                    <a class='text-light' href='https://github.com/damon-murdoch/weakness-calculator'>
+                      Pokémon Weakness Calculator (Superceded by Coverage Calculator)
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </p>
         </div>
@@ -241,13 +241,60 @@ const PAGES = {
     "link": "?tcg",
     "title": "Pokémon TCG", 
     "content": `
-      <div class="d-flex m-2 bg-secondary rounded">
+      <div class="m-2 bg-secondary rounded">
         <div id="text-content">
           <p>
-            This page is still under construction. Please
-            excuse us during our redesign!
+            This page is for content relating to the Pokemon
+            Trading Card Game. In official competitive play, 
+            decks are required to have exactly 60 cards and 
+            must only contain cards which are legal within
+            the current standard or expanded rotation,
+            depending on the tournament format. Games are 
+            typically best-of-three, but best of one is also
+            common in large online tournaments. Deck changes
+            are typically not allowed mid-tournament. 
+          </p>
+          <p>
+            I have personally competed in the competitive 
+            Pokemon TCG scene since 2016, however I have 
+            been unable to play any large events due to
+            VGC and TCG running at the same time. However,
+            I have recently started developing software and
+            resources for the Pokemon TCG. These resoruces
+            are listed below.
           </p>
         </div>
+        <ul>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/pokemon-decks'>
+                Pokemon Decks
+              </a>
+            </h4>
+            <p>
+              A website containing deck lists from my personal collection, including
+              a buylist for cards which are required to finish them. Contains full card
+              counts, colour coding indicating completeness and PokeGoldfish hyperlinks
+              for more information about the cards. 
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/teamsheet-filler'>
+                (Advanced) Pokemon Trading Card Game Online to JSON Converter
+              </a>
+            </h4>
+            <p>
+              A bi-directional converter application for converting PTCGO deck list
+              exports to JSON format and back. Useful for people who want to make
+              web sites or software processing deck information. For the algorithm
+              itself, you can see it 
+              <a class='link-light' href='https://github.com/damon-murdoch/ptcg-to-json/blob/master/src/convert.js'>
+                here.
+              </a>
+            </p>
+          </li>
+        </ul>
       </div>
     `
   }, 
@@ -259,9 +306,45 @@ const PAGES = {
       <div class="d-flex m-2 bg-secondary rounded">
         <div id="text-content">
           <p>
-            This page is still under construction. Please
-            excuse us during our redesign!
+            Super Smash Brothers is a platform fighter game 
+            developed by Sora Ltd. and directed by Masahiro
+            Sakurai. All Smash games have some level of play
+            at a competitive level, primarily Super Smash 
+            Bros. Melee for the Nintendo Gamecube and Super
+            Smash Bros. Ultimate for the Nintendo Switch. 
           </p>
+          <p>
+            While I don't personally compete in Smash
+            at any competitive level, I have attended a few
+            local tournaments and have enjoyed watching majors
+            since 2016. I have made one piece of software
+            for this game, at the request of my good friend 
+            and Smash Ultimate Speedrunner
+            <a class='link-light' href='https://twitter.com/Arahpthos'>
+              Arahpthos.
+            </a>
+            If the opportunity arises, I may develop more
+            for this game in the future. More information 
+            and links to this software can be found below.
+          </p>
+          <ul>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/ssbu-classic-igt-calc'>
+                Super Smash Bros. Ultimate Ingame Time Calculator
+              </a>
+            </h4>
+            <p>
+              A Super Smash Brothers Ultimate In-Game time calculator, 
+              based on the original calculator developed by 
+              <a class='link-light' href='https://twitter.com/Arahpthos'>
+                Arahpthos.
+              </a>
+              This app is used by speedrunners to submit their classic 
+              mode times to speedrun.com.
+            </p>
+          </li>
+        </ul>
         </div>
       </div>
     `
@@ -273,9 +356,135 @@ const PAGES = {
     "content": `
       <div id="text-content">
         <p>
-          This page is still under construction. Please
-          excuse us during our redesign!
+          Wangan Midnight Maximum Tune is a series 
+          of arcade racing games developed and 
+          published by NAMCO since 2004. It is 
+          based on the popular manga series
+          <i> Wangan Midnight. </i> The games
+          are typically played in arcades, 
+          using a tuning card or Banapassport
+          to track the user's cars and progress.
+          There have been 6 main games in the 
+          series, with the most recent being 6RR 
+          in Asia and 5DX+ in North America. The
+          game has three main single player aspects:
+          <ul>
+            <li>
+              Story Mode - Play through the story of the
+              Wangan Midnight Series and rank up your
+              car from beginner tune to fully tuned
+            </li>
+            <li>
+              Time Attack Mode - Race against the clock 
+              to achieve the fastest time on any given
+              track
+            </li>
+            <li>
+              Ghost Battle Mode - Race against simulated 
+              'ghosts' of real players cars controlled 
+              by AIs and unlock visual parts for your car.
+            </li>
+          </ul>
+          In addition to this, you can also play against
+          other players at the same arcade locally to earn
+          versus stars, which increase your ranking and
+          you win a free game for every race you come first.
         </p>
+        <p>
+          I have been playing Maximum Tune since 2019 in a 
+          a casual capacity, however I have been playing more
+          competitively since early 2021. In addition to 
+          playing on original hardware, I also frequently 
+          play on emulator using 
+          <a class='link-light' href=''>
+            TeknoParrot
+          </a>
+          in my home setup, which has a racing seat and 
+          a logitech wheel. I have worked on a lot of 
+          software for Maximum tune, primarily in the
+          emulation community however I have also 
+          created resources with information for the
+          traditional game. These resources can be
+          found below.
+        </p>
+        <ul>
+          <li>
+            <h4>
+              <a class='link-light' href='https://github.com/damon-murdoch/wmmt-ref/blob/master/readme.md'>
+                Wangan Midnight Maximum Tune Reference Guide
+              </a>
+            </h4>
+            <p>
+              A quick reference guide for a number of things I found
+              it difficult to understand when I started playing such
+              as optimal speeds for time attack / battles, rank up
+              requirements, how to earn different titles etc. I will
+              most likely convert this to its own full web page in
+              the future, however for now it is a simple markup 
+              document.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/wmmt-car-editor'>
+                Wangan Midnight Maximum Tune Car Editor
+              </a>
+            </h4>
+            <p>
+              This application is a car editor for all Maximum Tune
+              games supported by Teknoparrot, which allows you to
+              edit features such as rank, colour, aero parts, etc. 
+              Different features are supported for each game, due
+              to what properties are respected by the emulator. 
+              This program does NOT work for official saves and is
+              exclusively for emulators.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='https://github.com/damon-murdoch/wmmt-ref/blob/master/readme.md'>
+                Universal Mod Loader
+              </a>
+            </h4>
+            <p>
+              A python application for installing and uninstalling 
+              mods without losing files. Designed for use with the 
+              Maximum Tune Arcade titles on TeknoParrot, but should 
+              in theory be usable with any game.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='https://github.com/damon-murdoch/wmmt-ref/blob/master/readme.md'>
+                (Advanced) Wangan Midnight Maximum Tune Mod Tools
+              </a>
+            </h4>
+            <p>
+              A series of Python applications for creating mods
+              for the Maximum Tune series of arcade games on
+              Teknoparrot. Currently supports creating Meter
+              replacement mods and Music replacement mods.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='#'>
+                Archived Tools
+              </a>
+            </h4>
+            <p>
+              These tools have all been archived, and are no longer
+              being maintained. They are only listed here for legacy purposes.
+            </p>
+            <ul>
+              <li>
+                <a class='text-light' href='https://github.com/damon-murdoch/wmmt6-car-editor'>
+                  Wangan Midnight Maximum Tune 6 Car Editor (Superceded by WMMT Car Editor)
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
     `
   }
