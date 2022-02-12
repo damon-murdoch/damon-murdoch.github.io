@@ -306,7 +306,8 @@ const PAGES = {
       <div class="d-flex m-2 bg-secondary rounded">
         <div id="text-content">
           <p>
-            Super Smash Brothers is a platform fighter game 
+            This page is for resources relating to Super
+            Smash Brothers, which is a platform fighting game 
             developed by Sora Ltd. and directed by Masahiro
             Sakurai. All Smash games have some level of play
             at a competitive level, primarily Super Smash 
@@ -356,9 +357,10 @@ const PAGES = {
     "content": `
       <div id="text-content">
         <p>
-          Wangan Midnight Maximum Tune is a series 
-          of arcade racing games developed and 
-          published by NAMCO since 2004. It is 
+          This page is for resources relating to
+          Wangan Midnight Maximum Tune, which is
+          a series of arcade racing games developed 
+          and published by NAMCO since 2004. It is 
           based on the popular manga series
           <i> Wangan Midnight. </i> The games
           are typically played in arcades, 
