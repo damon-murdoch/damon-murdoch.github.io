@@ -171,7 +171,7 @@ const PAGES = {
               </li>
               <li>
                 <h4>
-                  <a class='link-light' href='https://github.com/damon-murdoch/Pokémon-showdown-docker'>
+                  <a class='link-light' href='https://github.com/damon-murdoch/pokemon-showdown-docker'>
                     (Advanced) Pokémon Showdown Docker
                   </a>
                 </h4>
@@ -183,7 +183,7 @@ const PAGES = {
                   each time launching the container to ensure your server stays 
                   up to date. For more information, please see the docker hub
                   page 
-                  <a class='link-light' href='https://hub.docker.com/r/scrubbs/Pokémon-showdown-docker'>
+                  <a class='link-light' href='https://hub.docker.com/r/scrubbs/pokemon-showdown-docker'>
                     here.
                   </a>
                 </p>
@@ -267,7 +267,7 @@ const PAGES = {
         <ul>
           <li>
             <h4>
-              <a class='link-light' href='http://www.dragapult.xyz/Pokémon-decks'>
+              <a class='link-light' href='http://www.dragapult.xyz/pokemon-decks'>
                 Pokémon Decks
               </a>
             </h4>
