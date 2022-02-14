@@ -190,16 +190,22 @@ const PAGES = {
               </li>
               <li>
                 <h4>
-                  <a class='link-light' href='https://github.com/damon-murdoch/ps-parser'>
+                  <a class='link-light' href='http://www.dragapult.xyz/ps-parser'>
                     (Advanced) Pokémon Showdown Parser
                   </a>
                 </h4>
                 <p>
-                  This is a repository for parsers for Pokémon Showdown! Set 
-                  files, written for several different languages. The intention 
-                  of this is for the files to be able to be dropped into and used 
-                  by any project. Currently JavaScript, PowerShell and Python versions 
-                  have been implemented.
+                  A bi-directional converter application for Pokemon Showdown set
+                  exports to JSON format and back. Useful for people who want to make
+                  web sites or software processing set information. The web version
+                  is linked above, however it has also been implemented in several
+                  other languages. The intention of this is for the files to be able 
+                  to be dropped into and used by any project. Currently JavaScript, 
+                  PowerShell and Python versions have been implemented. You can see
+                  the source code for the project
+                  <a href='https://github.com/damon-murdoch/ps-parser'>
+                    here.
+                  </a>
                 </p>
               </li>
               <li>
