@@ -203,7 +203,7 @@ const PAGES = {
                   to be dropped into and used by any project. Currently JavaScript, 
                   PowerShell and Python versions have been implemented. You can see
                   the source code for the project
-                  <a href='https://github.com/damon-murdoch/ps-parser'>
+                  <a class='link-light' href='https://github.com/damon-murdoch/ps-parser'>
                     here.
                   </a>
                 </p>
