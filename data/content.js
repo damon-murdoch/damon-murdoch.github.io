@@ -50,7 +50,6 @@ const PAGES = {
     "link": "?vgc",
     "title": "Pokémon VGC", 
     "content": `
-      <div class="d-flex m-2 bg-secondary rounded">
         <div id="text-content">
           <p>
             This page is for resources related to the Pokémon
@@ -71,175 +70,172 @@ const PAGES = {
             reports and developing software for the community
             since 2016. These resources are listed below.
           </p>
-          <p>
+        </div>
+        <ul>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/coverage-calculator'>
+                Pokémon Type Coverage Calculator
+              </a>
+            </h4>
+            <p>
+              A program for calculating the combined weakness
+              and resistances for your Pokémon teams. Useful for
+              identifying bad matchups or where your team could
+              be improved. Shows both offensive and defensive
+              coverage.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/teamsheet-filler'>
+              Pokémon Teamsheet Filler
+              </a>
+            </h4>
+            <p>
+              A program for populating a printable teamsheet given a 
+              paste dump of the user's team (showdown export), as well
+              as required information about the user and the tournament. 
+              This is a client-side website and no information about the
+              user is stored by (or available to) myself or anyone else.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/spread-optimiser'>
+                Pokémon EV Spread Optimiser
+              </a>
+            </h4>
+            <p>
+              A program for calculating mathematically optimal EV 
+              spreads for a Pokémon given constraints such as minimum
+              or maximum required values, natures, level etc. Displays
+              all possible combinations sorted by the highest base stat
+              total results.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='https://sir-scrubbington.hatenablog.com'>
+                Pokémon VGC Blog
+              </a>
+            </h4>
+            <p>
+              A blog I have used since 2015 to write about Pokémon teams, 
+              tournaments and other helpful information related to VGC.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/set-scheduler'>
+                Set Scheduler
+              </a>
+            </h4>
+            <p>
+              A rudimentary tool for scheduling sets with opponents in
+              online tournaments, where timezones can be difficult to manage. 
+              Generates a message which can be sent containing both the time
+              for yourself and the opponent, in each player's respective timezone.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='https://github.com/damon-murdoch/custom-pwt'>
+                Custom Pokémon World Tournament (PWT)
+              </a>
+            </h4>
+            <p>
+              Not strictly VGC related, but this repository contains 
+              custom Pokémon World Tournament (PWT) files which can be
+              imported into Black and White 2 save files. For example, 
+              I have created the World Championships 2013 Top 4 bracket 
+              for players to enjoy.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='https://github.com/damon-murdoch/psmanage'>
+                (Advanced) Pokémon Showdown Manager
+              </a>
+            </h4>
+            <p>
+            This is a Pokémon Showdown Team Manager, which has been developed 
+            for the purpose of backing up and storing Pokémon Showdown 
+            teams in a simple and easy to access format. For more 
+            information, please refer to the post on my blog 
+              <a class='link-light' href='http://sir-scrubbington.hatenablog.com/entry/2021/03/14/105329'>
+                here.
+              </a>
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='https://github.com/damon-murdoch/pokemon-showdown-docker'>
+                (Advanced) Pokémon Showdown Docker
+              </a>
+            </h4>
+            <p>
+              A dockerized container for the Pokémon Showdown! Web Server. 
+              This container is build upon the standard nodejs docker library 
+              image, and pulls the latest version of the Pokémon Showdown! 
+              server image when built. It also performs a pull request on 
+              each time launching the container to ensure your server stays 
+              up to date. For more information, please see the docker hub
+              page 
+              <a class='link-light' href='https://hub.docker.com/r/scrubbs/pokemon-showdown-docker'>
+                here.
+              </a>
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/ps-parser'>
+                (Advanced) Pokémon Showdown Parser
+              </a>
+            </h4>
+            <p>
+              A bi-directional converter application for Pokemon Showdown set
+              exports to JSON format and back. Useful for people who want to make
+              web sites or software processing set information. The web version
+              is linked above, however it has also been implemented in several
+              other languages. The intention of this is for the files to be able 
+              to be dropped into and used by any project. Currently JavaScript, 
+              PowerShell and Python versions have been implemented. You can see
+              the source code for the project
+              <a class='link-light' href='https://github.com/damon-murdoch/ps-parser'>
+                here.
+              </a>
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='#'>
+                Archived Tools
+              </a>
+            </h4>
+            <p>
+              These tools have all been archived, and are no longer
+              being maintained. They are only listed here for legacy purposes.
+            </p>
             <ul>
               <li>
-                <h4>
-                  <a class='link-light' href='http://www.dragapult.xyz/coverage-calculator'>
-                    Pokémon Type Coverage Calculator
-                  </a>
-                </h4>
-                <p>
-                  A program for calculating the combined weakness
-                  and resistances for your Pokémon teams. Useful for
-                  identifying bad matchups or where your team could
-                  be improved. Shows both offensive and defensive
-                  coverage.
-                </p>
+                <a class='link-light' href='https://github.com/damon-murdoch/pkmtools'>
+                  Pokémon Tools (Superceded by Spread Optimiser)
+                </a>
               </li>
               <li>
-                <h4>
-                  <a class='link-light' href='http://www.dragapult.xyz/teamsheet-filler'>
-                  Pokémon Teamsheet Filler
-                  </a>
-                </h4>
-                <p>
-                  A program for populating a printable teamsheet given a 
-                  paste dump of the user's team (showdown export), as well
-                  as required information about the user and the tournament. 
-                  This is a client-side website and no information about the
-                  user is stored by (or available to) myself or anyone else.
-                </p>
+                <a class='link-light' href='https://github.com/damon-murdoch/jtk-coverage'>
+                  JTK Coverage Calculator (Superceded by Coverage Calculator)
+                </a>
               </li>
               <li>
-                <h4>
-                  <a class='link-light' href='http://www.dragapult.xyz/spread-optimiser'>
-                    Pokémon EV Spread Optimiser
-                  </a>
-                </h4>
-                <p>
-                  A program for calculating mathematically optimal EV 
-                  spreads for a Pokémon given constraints such as minimum
-                  or maximum required values, natures, level etc. Displays
-                  all possible combinations sorted by the highest base stat
-                  total results.
-                </p>
-              </li>
-              <li>
-                <h4>
-                  <a class='link-light' href='https://sir-scrubbington.hatenablog.com'>
-                    Pokémon VGC Blog
-                  </a>
-                </h4>
-                <p>
-                  A blog I have used since 2015 to write about Pokémon teams, 
-                  tournaments and other helpful information related to VGC.
-                </p>
-              </li>
-              <li>
-                <h4>
-                  <a class='link-light' href='http://www.dragapult.xyz/set-scheduler'>
-                    Set Scheduler
-                  </a>
-                </h4>
-                <p>
-                  A rudimentary tool for scheduling sets with opponents in
-                  online tournaments, where timezones can be difficult to manage. 
-                  Generates a message which can be sent containing both the time
-                  for yourself and the opponent, in each player's respective timezone.
-                </p>
-              </li>
-              <li>
-                <h4>
-                  <a class='link-light' href='https://github.com/damon-murdoch/custom-pwt'>
-                    Custom Pokémon World Tournament (PWT)
-                  </a>
-                </h4>
-                <p>
-                  Not strictly VGC related, but this repository contains 
-                  custom Pokémon World Tournament (PWT) files which can be
-                  imported into Black and White 2 save files. For example, 
-                  I have created the World Championships 2013 Top 4 bracket 
-                  for players to enjoy.
-                </p>
-              </li>
-              <li>
-                <h4>
-                  <a class='link-light' href='https://github.com/damon-murdoch/psmanage'>
-                    (Advanced) Pokémon Showdown Manager
-                  </a>
-                </h4>
-                <p>
-                This is a Pokémon Showdown Team Manager, which has been developed 
-                for the purpose of backing up and storing Pokémon Showdown 
-                teams in a simple and easy to access format. For more 
-                information, please refer to the post on my blog 
-                  <a class='link-light' href='http://sir-scrubbington.hatenablog.com/entry/2021/03/14/105329'>
-                    here.
-                  </a>
-                </p>
-              </li>
-              <li>
-                <h4>
-                  <a class='link-light' href='https://github.com/damon-murdoch/pokemon-showdown-docker'>
-                    (Advanced) Pokémon Showdown Docker
-                  </a>
-                </h4>
-                <p>
-                  A dockerized container for the Pokémon Showdown! Web Server. 
-                  This container is build upon the standard nodejs docker library 
-                  image, and pulls the latest version of the Pokémon Showdown! 
-                  server image when built. It also performs a pull request on 
-                  each time launching the container to ensure your server stays 
-                  up to date. For more information, please see the docker hub
-                  page 
-                  <a class='link-light' href='https://hub.docker.com/r/scrubbs/pokemon-showdown-docker'>
-                    here.
-                  </a>
-                </p>
-              </li>
-              <li>
-                <h4>
-                  <a class='link-light' href='http://www.dragapult.xyz/ps-parser'>
-                    (Advanced) Pokémon Showdown Parser
-                  </a>
-                </h4>
-                <p>
-                  A bi-directional converter application for Pokemon Showdown set
-                  exports to JSON format and back. Useful for people who want to make
-                  web sites or software processing set information. The web version
-                  is linked above, however it has also been implemented in several
-                  other languages. The intention of this is for the files to be able 
-                  to be dropped into and used by any project. Currently JavaScript, 
-                  PowerShell and Python versions have been implemented. You can see
-                  the source code for the project
-                  <a class='link-light' href='https://github.com/damon-murdoch/ps-parser'>
-                    here.
-                  </a>
-                </p>
-              </li>
-              <li>
-                <h4>
-                  <a class='link-light' href='#'>
-                    Archived Tools
-                  </a>
-                </h4>
-                <p>
-                  These tools have all been archived, and are no longer
-                  being maintained. They are only listed here for legacy purposes.
-                </p>
-                <ul>
-                  <li>
-                    <a class='text-light' href='https://github.com/damon-murdoch/pkmtools'>
-                      Pokémon Tools (Superceded by Spread Optimiser)
-                    </a>
-                  </li>
-                  <li>
-                    <a class='text-light' href='https://github.com/damon-murdoch/jtk-coverage'>
-                      JTK Coverage Calculator (Superceded by Coverage Calculator)
-                    </a>
-                  </li>
-                  <li>
-                    <a class='text-light' href='https://github.com/damon-murdoch/weakness-calculator'>
-                      Pokémon Weakness Calculator (Superceded by Coverage Calculator)
-                    </a>
-                  </li>
-                </ul>
+                <a class='link-light' href='https://github.com/damon-murdoch/weakness-calculator'>
+                  Pokémon Weakness Calculator (Superceded by Coverage Calculator)
+                </a>
               </li>
             </ul>
-          </p>
-        </div>
-      </div>
+          </li>
+        </ul>
     `
   }, 
   "tcg": {
@@ -247,61 +243,59 @@ const PAGES = {
     "link": "?tcg",
     "title": "Pokémon TCG", 
     "content": `
-      <div class="m-2 bg-secondary rounded">
-        <div id="text-content">
-          <p>
-            This page is for content relating to the Pokémon
-            Trading Card Game. In official competitive play, 
-            decks are required to have exactly 60 cards and 
-            must only contain cards which are legal within
-            the current standard or expanded rotation,
-            depending on the tournament format. Games are 
-            typically best-of-three, but best of one is also
-            common in large online tournaments. Deck changes
-            are typically not allowed mid-tournament. 
-          </p>
-          <p>
-            I have personally competed in the competitive 
-            Pokémon TCG scene since 2016, however I have 
-            been unable to play any large events due to
-            VGC and TCG running at the same time. However,
-            I have recently started developing software and
-            resources for the Pokémon TCG. These resoruces
-            are listed below.
-          </p>
-        </div>
-        <ul>
-          <li>
-            <h4>
-              <a class='link-light' href='http://www.dragapult.xyz/pokemon-decks'>
-                Pokémon Decks
-              </a>
-            </h4>
-            <p>
-              A website containing deck lists from my personal collection, including
-              a buylist for cards which are required to finish them. Contains full card
-              counts, colour coding indicating completeness and PokeGoldfish hyperlinks
-              for more information about the cards. 
-            </p>
-          </li>
-          <li>
-            <h4>
-              <a class='link-light' href='http://www.dragapult.xyz/teamsheet-filler'>
-                (Advanced) Pokémon Trading Card Game Online to JSON Converter
-              </a>
-            </h4>
-            <p>
-              A bi-directional converter application for converting PTCGO deck list
-              exports to JSON format and back. Useful for people who want to make
-              web sites or software processing deck information. For the algorithm
-              itself, you can see it 
-              <a class='link-light' href='https://github.com/damon-murdoch/ptcg-to-json/blob/master/src/convert.js'>
-                here.
-              </a>
-            </p>
-          </li>
-        </ul>
+      <div id="text-content">
+        <p>
+          This page is for content relating to the Pokémon
+          Trading Card Game. In official competitive play, 
+          decks are required to have exactly 60 cards and 
+          must only contain cards which are legal within
+          the current standard or expanded rotation,
+          depending on the tournament format. Games are 
+          typically best-of-three, but best of one is also
+          common in large online tournaments. Deck changes
+          are typically not allowed mid-tournament. 
+        </p>
+        <p>
+          I have personally competed in the competitive 
+          Pokémon TCG scene since 2016, however I have 
+          been unable to play any large events due to
+          VGC and TCG running at the same time. However,
+          I have recently started developing software and
+          resources for the Pokémon TCG. These resoruces
+          are listed below.
+        </p>
       </div>
+      <ul>
+        <li>
+          <h4>
+            <a class='link-light' href='http://www.dragapult.xyz/pokemon-decks'>
+              Pokémon Decks
+            </a>
+          </h4>
+          <p>
+            A website containing deck lists from my personal collection, including
+            a buylist for cards which are required to finish them. Contains full card
+            counts, colour coding indicating completeness and PokeGoldfish hyperlinks
+            for more information about the cards. 
+          </p>
+        </li>
+        <li>
+          <h4>
+            <a class='link-light' href='http://www.dragapult.xyz/teamsheet-filler'>
+              (Advanced) Pokémon Trading Card Game Online to JSON Converter
+            </a>
+          </h4>
+          <p>
+            A bi-directional converter application for converting PTCGO deck list
+            exports to JSON format and back. Useful for people who want to make
+            web sites or software processing deck information. For the algorithm
+            itself, you can see it 
+            <a class='link-light' href='https://github.com/damon-murdoch/ptcg-to-json/blob/master/src/convert.js'>
+              here.
+            </a>
+          </p>
+        </li>
+      </ul>
     `
   }, 
   "ssb": {
@@ -309,51 +303,49 @@ const PAGES = {
     "link": "?ssb",
     "title": "Super Smash Brothers", 
     "content": `
-      <div class="d-flex m-2 bg-secondary rounded">
-        <div id="text-content">
+      <div id="text-content">
+        <p>
+          This page is for resources relating to Super
+          Smash Brothers, which is a platform fighting game 
+          developed by Sora Ltd. and directed by Masahiro
+          Sakurai. All Smash games have some level of play
+          at a competitive level, primarily Super Smash 
+          Bros. Melee for the Nintendo Gamecube and Super
+          Smash Bros. Ultimate for the Nintendo Switch. 
+        </p>
+        <p>
+          While I don't personally compete in Smash
+          at any competitive level, I have attended a few
+          local tournaments and have enjoyed watching majors
+          since 2016. I have made one piece of software
+          for this game, at the request of my good friend 
+          and Smash Ultimate Speedrunner
+          <a class='link-light' href='https://twitter.com/Arahpthos'>
+            Arahpthos.
+          </a>
+          If the opportunity arises, I may develop more
+          for this game in the future. More information 
+          and links to this software can be found below.
+        </p>
+      </div>
+      <ul>
+        <li>
+          <h4>
+            <a class='link-light' href='http://www.dragapult.xyz/ssbu-classic-igt-calc'>
+              Super Smash Bros. Ultimate Ingame Time Calculator
+            </a>
+          </h4>
           <p>
-            This page is for resources relating to Super
-            Smash Brothers, which is a platform fighting game 
-            developed by Sora Ltd. and directed by Masahiro
-            Sakurai. All Smash games have some level of play
-            at a competitive level, primarily Super Smash 
-            Bros. Melee for the Nintendo Gamecube and Super
-            Smash Bros. Ultimate for the Nintendo Switch. 
-          </p>
-          <p>
-            While I don't personally compete in Smash
-            at any competitive level, I have attended a few
-            local tournaments and have enjoyed watching majors
-            since 2016. I have made one piece of software
-            for this game, at the request of my good friend 
-            and Smash Ultimate Speedrunner
+            A Super Smash Brothers Ultimate In-Game time calculator, 
+            based on the original calculator developed by 
             <a class='link-light' href='https://twitter.com/Arahpthos'>
               Arahpthos.
             </a>
-            If the opportunity arises, I may develop more
-            for this game in the future. More information 
-            and links to this software can be found below.
+            This app is used by speedrunners to submit their classic 
+            mode times to speedrun.com.
           </p>
-          <ul>
-          <li>
-            <h4>
-              <a class='link-light' href='http://www.dragapult.xyz/ssbu-classic-igt-calc'>
-                Super Smash Bros. Ultimate Ingame Time Calculator
-              </a>
-            </h4>
-            <p>
-              A Super Smash Brothers Ultimate In-Game time calculator, 
-              based on the original calculator developed by 
-              <a class='link-light' href='https://twitter.com/Arahpthos'>
-                Arahpthos.
-              </a>
-              This app is used by speedrunners to submit their classic 
-              mode times to speedrun.com.
-            </p>
-          </li>
-        </ul>
-        </div>
-      </div>
+        </li>
+      </ul>
     `
   }, 
   "wmmt": {
@@ -486,7 +478,7 @@ const PAGES = {
             </p>
             <ul>
               <li>
-                <a class='text-light' href='https://github.com/damon-murdoch/wmmt6-car-editor'>
+                <a href='https://github.com/damon-murdoch/wmmt6-car-editor'>
                   Wangan Midnight Maximum Tune 6 Car Editor (Superceded by WMMT Car Editor)
                 </a>
               </li>
