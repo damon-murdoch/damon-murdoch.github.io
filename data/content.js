@@ -6,37 +6,53 @@ const PAGES = {
     "content": `
       <div id="text-content">
         <p>
-          Hello and welcome to Dragapult.xyz! My name is Damon and 
-          I'm a Software Developer from Queensland, Australia. For years
-          I have been a competitor in both the Pokémon Video Game and 
-          Trading Card Game championship series, and I've recently 
-          started to play the Wangan Midnight Maximum Tune arcade
-          game series, both on emulator and in-person arcades.
+          Hello and welcome to Dragapult.xyz! My name is Damon and
+          I'm a software developer from Queensland, Australia. For years
+          I have been a competitor in both the Pokemon Video Game and 
+          Trading Card Game Championships, as well as more recently the
+          Wangan Midnight Maximum Tune arcade game series. 
         </p>
         <p>
-          I've created this website to host all of the resources I've created
-          related to these hobbies such as a Pokémon type coverage calculator
-          and EV spread optimiser, and even a Maximum Tune emulator save editor.
-          To see these resources, please check out the links above for more 
-          information and links to the individual resources.
+          At home, I dedicate a large amount of my time to working on
+          software projects, of which many are linked on this page. 
+          Most of these projects are related to my hobbies, such 
+          as a Pokémon type coverage calculator, ev spread optimiser 
+          and a defensive tera type calculator. Links to these 
+          resources and many more can be found in the pages above.
         </p>
         <p>
-          I am always working on more software projects, and have a few
-          projects currently in development. One such project to look 
-          forward to is a database of both Pokémon VGC teams and TCG 
-          deck lists which I plan to add to the site, including both 
-          modern and old formats. These will primarily be from my 
-          personal collection, or submitted to me with credit by 
-          other members of the community. I have been building 
-          a vast collection of both teams and decks for years, 
-          and this web site is the perfect platform to host 
-          them for all to see. I'm greatly looking forward 
-          to publishing it!
+          Here are a few of my personal highlights: 
+        </p>
+        <ul>
+          <li>
+            <a class='link-secondary' href='https://www.dragapult.xyz/pokemon-teams'>
+              Pokémon VGC Teams Archive (2012 -> Current)
+            </a>
+          </li>
+          <li>
+            <a class='link-secondary' href='https://sir-scrubbington.hatenablog.com/'>
+              Pokémon VGC / Personal Blog (2015 -> Current)
+            </a>
+          </li>
+          <li>
+            <a class='link-secondary' href='https://www.dragapult.xyz/pokemon-decks'>
+              Pokémon TCG Deck Collection (2015 -> Current)
+            </a>
+          </li>
+          <li>
+            <a class='link-secondary' href='https://dragapult.xyz/wmmt-frame-viewer'>
+              Wangan Midnight Maximum Tune 6RR Bingo Frame Viewer
+            </a>
+          </li>
+        </ul>
+        <p>
+          I will continue to update this page with new features and resources as 
+          they are developed, and I will do my best to keep them up to date. 
+          However, due to limited time and many projects sometimes it can 
+          take some time for changes to be made.
         </p>
         <p>
           Once again, thanks for checking out my website.
-        </p>
-        <p>
           -
           <a class='link-light' href="https://www.twitter.com/SirScrubbington">
             Damon
@@ -71,7 +87,31 @@ const PAGES = {
             since 2016. These resources are listed below.
           </p>
         </div>
+        <div>
+          <h3>
+            Competitive Resources
+          </h3>
+          <p>
+            Please see the following section for tools related to Pokemon gameplay 
+            such as a type coverage calculator, team archive and ev spread optimiser.
+          </p>
+        </div>
         <ul>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/pokemon-teams'>
+                Pokémon Teams Library
+              </a>
+            </h4>
+            <p>
+              An archive of teams I've been keeping since 2016, with over 300 teams from 
+              different formats. Many are teams that myself or others have used at tournaments, 
+              either with recreated spreads or the originals where possible. The collection 
+              is not perfect, and I am still working through adding original creators and 
+              descriptions to many teams due to the sheer volume. I'm open to team 
+              submissions, however please keep in mind I do not preserve nicknames.
+            </p>
+          </li>
           <li>
             <h4>
               <a class='link-light' href='http://www.dragapult.xyz/coverage-calculator'>
@@ -83,21 +123,9 @@ const PAGES = {
               and resistances for your Pokémon teams. Useful for
               identifying bad matchups or where your team could
               be improved. Shows both offensive and defensive
-              coverage.
-            </p>
-          </li>
-          <li>
-            <h4>
-              <a class='link-light' href='http://www.dragapult.xyz/teamsheet-filler'>
-              Pokémon Teamsheet Filler
-              </a>
-            </h4>
-            <p>
-              A program for populating a printable teamsheet given a 
-              paste dump of the user's team (showdown export), as well
-              as required information about the user and the tournament. 
-              This is a client-side website and no information about the
-              user is stored by (or available to) myself or anyone else.
+              coverage. Please note, this software has not yet
+              been updated to support new Pokemon and moves 
+              from Generation 9.
             </p>
           </li>
           <li>
@@ -111,7 +139,8 @@ const PAGES = {
               spreads for a Pokémon given constraints such as minimum
               or maximum required values, natures, level etc. Displays
               all possible combinations sorted by the highest base stat
-              total results.
+              total results. Please note, this software has not yet been 
+              updated to support new Pokemon and moves from Generation 9.
             </p>
           </li>
           <li>
@@ -138,24 +167,35 @@ const PAGES = {
               for yourself and the opponent, in each player's respective timezone.
             </p>
           </li>
+        </ul>
+        <div>
+          <h3>
+            Other Resources
+          </h3>
+          <p>
+            Please see the following section for tools related to Pokemon software
+            development, advanced management tools, or anything else that doesn't
+            fit in the competitive category.
+          </p>
+        </div>
+        <ul>
           <li>
             <h4>
               <a class='link-light' href='https://github.com/damon-murdoch/custom-pwt'>
-                Custom Pokémon World Tournament (PWT)
+                Custom Pokémon World Tournaments
               </a>
             </h4>
             <p>
-              Not strictly VGC related, but this repository contains 
-              custom Pokémon World Tournament (PWT) files which can be
-              imported into Black and White 2 save files. For example, 
-              I have created the World Championships 2013 Top 4 bracket 
-              for players to enjoy.
+              This repository contains custom Pokémon World Tournament 
+              (PWT) files which can be imported into Black and White 2 
+              save files. For example, I have created the World 
+              Championships 2013 Top 4 bracket for players to enjoy.
             </p>
           </li>
           <li>
             <h4>
               <a class='link-light' href='https://github.com/damon-murdoch/psmanage'>
-                (Advanced) Pokémon Showdown Manager
+                Pokémon Showdown Manager
               </a>
             </h4>
             <p>
@@ -171,7 +211,7 @@ const PAGES = {
           <li>
             <h4>
               <a class='link-light' href='https://github.com/damon-murdoch/pokemon-showdown-docker'>
-                (Advanced) Pokémon Showdown Docker
+                Pokémon Showdown Docker
               </a>
             </h4>
             <p>
@@ -190,7 +230,7 @@ const PAGES = {
           <li>
             <h4>
               <a class='link-light' href='http://www.dragapult.xyz/ps-parser'>
-                (Advanced) Pokémon Showdown Parser
+                Pokémon Showdown Parser
               </a>
             </h4>
             <p>
@@ -207,33 +247,48 @@ const PAGES = {
               </a>
             </p>
           </li>
+        </ul>
+        <div>
+          <h3>
+            Archived Resources
+          </h3>
+          <p>
+            These tools have all been archived, and are no longer
+            being maintained. They are only listed here for legacy purposes.
+          </p>
+        </div>
+        <ul>
           <li>
-            <h4>
-              <a class='link-light' href='#'>
-                Archived Tools
-              </a>
-            </h4>
+            <a class='link-light' href='https://github.com/damon-murdoch/pkmtools'>
+              Pokémon Tools (Superceded by Spread Optimiser)
+            </a>
             <p>
-              These tools have all been archived, and are no longer
-              being maintained. They are only listed here for legacy purposes.
+              - Superceded by <a class='text-light' href='https://www.dragapult.xyz/spread-optimiser/'>Pokémon EV Spread Optimiser</a>
             </p>
-            <ul>
-              <li>
-                <a class='link-light' href='https://github.com/damon-murdoch/pkmtools'>
-                  Pokémon Tools (Superceded by Spread Optimiser)
-                </a>
-              </li>
-              <li>
-                <a class='link-light' href='https://github.com/damon-murdoch/jtk-coverage'>
-                  JTK Coverage Calculator (Superceded by Coverage Calculator)
-                </a>
-              </li>
-              <li>
-                <a class='link-light' href='https://github.com/damon-murdoch/weakness-calculator'>
-                  Pokémon Weakness Calculator (Superceded by Coverage Calculator)
-                </a>
-              </li>
-            </ul>
+          </li>
+          <li>
+            <a class='link-light' href='https://github.com/damon-murdoch/jtk-coverage'>
+              JTK Coverage Calculator
+            </a>
+            <p>
+              - Superceded by <a class='text-light' href='https://www.dragapult.xyz/coverage-calculator/'>Pokémon Type Coverage Calculator</a>
+            </p>
+          </li>
+          <li>
+            <a class='link-light' href='https://github.com/damon-murdoch/weakness-calculator'>
+              Pokémon Weakness Calculator
+            </a>
+            <p>
+              - Superceded by <a class='text-light' href='https://www.dragapult.xyz/coverage-calculator/'>Pokémon Type Coverage Calculator</a>
+            </p>
+          </li>
+          <li>
+            <a class='link-light' href='http://www.dragapult.xyz/teamsheet-filler'>
+              Pokémon Teamsheet Filler
+            </a>
+            <p>
+              - Superceded by DhSufi's <a class='text-light' href='https://dhsufi.github.io/PokemonTeamListCreator/'>Pokémon Team List Creator</a>
+            </p>
           </li>
         </ul>
     `
@@ -282,7 +337,7 @@ const PAGES = {
         <li>
           <h4>
             <a class='link-light' href='http://www.dragapult.xyz/teamsheet-filler'>
-              (Advanced) Pokémon Trading Card Game Online to JSON Converter
+              Pokémon Trading Card Game Online to JSON Converter
             </a>
           </h4>
           <p>
@@ -366,48 +421,41 @@ const PAGES = {
           to track the user's cars and progress.
           There have been 6 main games in the 
           series, with the most recent being 6RR 
-          in Asia and 5DX+ in North America. The
-          game has three main single player aspects:
-          <ul>
-            <li>
-              Story Mode - Play through the story of the
-              Wangan Midnight Series and rank up your
-              car from beginner tune to fully tuned
-            </li>
-            <li>
-              Time Attack Mode - Race against the clock 
-              to achieve the fastest time on any given
-              track
-            </li>
-            <li>
-              Ghost Battle Mode - Race against simulated 
-              'ghosts' of real players cars controlled 
-              by AIs and unlock visual parts for your car.
-            </li>
-          </ul>
-          In addition to this, you can also play against
-          other players at the same arcade locally to earn
-          versus stars, which increase your ranking and
-          you win a free game for every race you come first.
+          in Asia and 5DX+ in North America.
         </p>
         <p>
           I have been playing Maximum Tune since 2019 in a 
-          a casual capacity, however I have been playing more
-          competitively since early 2021. In addition to 
-          playing on original hardware, I also frequently 
-          play on emulator using 
-          <a class='link-light' href=''>
-            TeknoParrot
-          </a>
-          in my home setup, which has a racing seat and 
-          a logitech wheel. I have worked on a lot of 
-          software for Maximum tune, primarily in the
-          emulation community however I have also 
-          created resources with information for the
-          traditional game. These resources can be
-          found below.
+          casual capacity, however I have been playing more
+          competitively since early 2021. I have worked on 
+          several pieces of software related to Maximum Tune, 
+          primarily in the emulation community. Please keep 
+          in mind, however much of this software is no longer
+          maintained. I have also created resources with 
+          information for the traditional game. These 
+          resources can befound below.
         </p>
+        <div>
+          <h3>
+            Arcade Resources
+          </h3>
+        </div>
         <ul>
+          <li>
+            <h4>
+              <a class='link-light' href='https://www.dragapult.xyz/wmmt-frame-viewer'>
+                Wangan Midnight Maximum Tune 6RR Bingo Frame Viewer 
+              </a>
+            </h4>
+            <p>
+              This application contains all of the bingo frames for
+              each day of the year, as well as the ability to look up
+              when the next appearance of a specific frame is. In addition
+              to this, you can also view the frame for a certain date, or
+              the frame for the next week, month, etc. You can also set
+              calendar reminders for certain frames you would like to 
+              obtain.
+            </p>
+          </li>
           <li>
             <h4>
               <a class='link-light' href='https://github.com/damon-murdoch/wmmt-ref/blob/master/readme.md'>
@@ -418,12 +466,16 @@ const PAGES = {
               A quick reference guide for a number of things I found
               it difficult to understand when I started playing such
               as optimal speeds for time attack / battles, rank up
-              requirements, how to earn different titles etc. I will
-              most likely convert this to its own full web page in
-              the future, however for now it is a simple markup 
-              document.
+              requirements, how to earn different titles etc.
             </p>
           </li>
+        </ul>
+        <div>
+          <h3>
+            Emulator Resources
+          </h3>
+        </div>
+        <ul>
           <li>
             <h4>
               <a class='link-light' href='http://www.dragapult.xyz/wmmt-car-editor'>
@@ -437,52 +489,39 @@ const PAGES = {
               Different features are supported for each game, due
               to what properties are respected by the emulator. 
               This program does NOT work for official saves and is
-              exclusively for emulators.
+              exclusively for emulators. Please note, this software
+              does not work for Bayshore and is designed for the
+              offline version of the game.
             </p>
           </li>
+        </ul>
+        <div>
+          <h3>
+            Archived Resources
+          </h3>
+          <p>
+            These tools have all been archived, and are no longer
+            being maintained. They are only listed here for legacy purposes.
+          </p>
+        </div>
+        <ul>
           <li>
-            <h4>
-              <a class='link-light' href='https://github.com/damon-murdoch/wmmt-ref/blob/master/readme.md'>
-                Universal Mod Loader
-              </a>
-            </h4>
-            <p>
-              A python application for installing and uninstalling 
-              mods without losing files. Designed for use with the 
-              Maximum Tune Arcade titles on TeknoParrot, but should 
-              in theory be usable with any game.
-            </p>
+            <a class='link-light' href='https://github.com/damon-murdoch/wmmt-ref/blob/master/readme.md'>
+              Universal Mod Loader
+            </a>
           </li>
           <li>
-            <h4>
-              <a class='link-light' href='https://github.com/damon-murdoch/wmmt-ref/blob/master/readme.md'>
-                (Advanced) Wangan Midnight Maximum Tune Mod Tools
-              </a>
-            </h4>
-            <p>
-              A series of Python applications for creating mods
-              for the Maximum Tune series of arcade games on
-              Teknoparrot. Currently supports creating Meter
-              replacement mods and Music replacement mods.
-            </p>
+            <a class='link-light' href='https://github.com/damon-murdoch/wmmt-ref/blob/master/readme.md'>
+              Wangan Midnight Maximum Tune Mod Tools
+            </a>
           </li>
           <li>
-            <h4>
-              <a class='link-light' href='#'>
-                Archived Tools
-              </a>
-            </h4>
+            <a href='https://github.com/damon-murdoch/wmmt6-car-editor' class='text-light'>
+              Wangan Midnight Maximum Tune 6 Car Editor
+            </a>
             <p>
-              These tools have all been archived, and are no longer
-              being maintained. They are only listed here for legacy purposes.
+              - Superceded by <a href='https://github.com/damon-murdoch/wmmt-car-editor' class='text-light'>Wangan Midnight Maximum Tune Car Editor</a>
             </p>
-            <ul>
-              <li>
-                <a href='https://github.com/damon-murdoch/wmmt6-car-editor'>
-                  Wangan Midnight Maximum Tune 6 Car Editor (Superceded by WMMT Car Editor)
-                </a>
-              </li>
-            </ul>
           </li>
         </ul>
       </div>

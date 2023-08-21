@@ -46,7 +46,7 @@ function getNavbar()
     let a = document.createElement('a');
 
     // Set the classes for the a element
-    a.classList = 'link-light mx-2';
+    a.classList = 'link-secondary mx-2';
 
     // Set the link to the href
     a.href = content.link;
