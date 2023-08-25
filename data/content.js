@@ -1,9 +1,9 @@
 const PAGES = {
-  "home": {
-    "name": "Home",
-    "link": "?home",
-    "title": "Home Page", 
-    "content": `
+  home: {
+    name: "Home",
+    link: "?home",
+    title: "Home Page",
+    content: `
       <div id="text-content">
         <p>
           Hello and welcome to Dragapult.xyz! My name is Damon and
@@ -25,23 +25,33 @@ const PAGES = {
         </p>
         <ul>
           <li>
+            <a class='link-secondary' href='https://dragapult.xyz/wmmt-frame-viewer'>
+              Wangan Midnight Maximum Tune 6RR Bingo Frame Viewer
+            </a>
+          </li>
+          <li>
+            <a class='link-secondary' href='http://www.dragapult.xyz/coverage-calculator'>
+              Pokémon VG Type Coverage Calculator
+            </a>
+          </li>
+          <li>
+            <a class='link-secondary' href='http://www.dragapult.xyz/spread-optimiser'>
+              Pokémon VG EV Spread Optimiser
+            </a>
+          </li>
+          <li>
             <a class='link-secondary' href='https://www.dragapult.xyz/pokemon-teams'>
-              Pokémon VGC Teams Archive (2012 -> Current)
+              Pokémon VG Teams Archive
             </a>
           </li>
           <li>
             <a class='link-secondary' href='https://sir-scrubbington.hatenablog.com/'>
-              Pokémon VGC / Personal Blog (2015 -> Current)
+              Pokémon VGC Personal Blog
             </a>
           </li>
           <li>
             <a class='link-secondary' href='https://www.dragapult.xyz/pokemon-decks'>
-              Pokémon TCG Deck Collection (2015 -> Current)
-            </a>
-          </li>
-          <li>
-            <a class='link-secondary' href='https://dragapult.xyz/wmmt-frame-viewer'>
-              Wangan Midnight Maximum Tune 6RR Bingo Frame Viewer
+              Pokémon TCG Deck Collection
             </a>
           </li>
         </ul>
@@ -59,13 +69,13 @@ const PAGES = {
           </a>
         </p>
       </div>
-    `
-  }, 
-  "vgc": {
-    "name": "VGC",
-    "link": "?vgc",
-    "title": "Pokémon VGC", 
-    "content": `
+    `,
+  },
+  vgc: {
+    name: "VGC",
+    link: "?vgc",
+    title: "Pokémon VGC",
+    content: `
         <div id="text-content">
           <p>
             This page is for resources related to the Pokémon
@@ -259,8 +269,26 @@ const PAGES = {
         </div>
         <ul>
           <li>
+            <a class='link-light' href='http://www.dragapult.xyz/coverage-calculator-legacy'>
+              Pokémon Type Coverage Calculator (Legacy)
+            </a>
+            <p>
+              - Superceded by <a class='text-light' href='https://www.dragapult.xyz/coverage-calculator/'>Pokémon Type Coverage Calculator</a>
+            </p>
+          </li>
+          <li>
+            <a class='link-light' href='http://www.dragapult.xyz/spread-optimiser-legacy'>
+              Pokémon EV Spread Optimiser (Legacy)
+            </a>
+            <p>
+              - Superceded by <a class='text-light' href='https://www.dragapult.xyz/spread-optimiser/'>Pokémon EV Spread Optimiser</a>
+            </p>
+          </li>
+
+
+          <li>
             <a class='link-light' href='https://github.com/damon-murdoch/pkmtools'>
-              Pokémon Tools (Superceded by Spread Optimiser)
+              Pokémon Tools (Python Script Library)
             </a>
             <p>
               - Superceded by <a class='text-light' href='https://www.dragapult.xyz/spread-optimiser/'>Pokémon EV Spread Optimiser</a>
@@ -291,13 +319,13 @@ const PAGES = {
             </p>
           </li>
         </ul>
-    `
-  }, 
-  "tcg": {
-    "name": "TCG",
-    "link": "?tcg",
-    "title": "Pokémon TCG", 
-    "content": `
+    `,
+  },
+  tcg: {
+    name: "TCG",
+    link: "?tcg",
+    title: "Pokémon TCG",
+    content: `
       <div id="text-content">
         <p>
           This page is for content relating to the Pokémon
@@ -351,13 +379,13 @@ const PAGES = {
           </p>
         </li>
       </ul>
-    `
-  }, 
-  "ssb": {
-    "name": "SSB",
-    "link": "?ssb",
-    "title": "Super Smash Brothers", 
-    "content": `
+    `,
+  },
+  ssb: {
+    name: "SSB",
+    link: "?ssb",
+    title: "Super Smash Brothers",
+    content: `
       <div id="text-content">
         <p>
           This page is for resources relating to Super
@@ -401,13 +429,13 @@ const PAGES = {
           </p>
         </li>
       </ul>
-    `
-  }, 
-  "wmmt": {
-    "name": "WMMT",
-    "link": "?wmmt",
-    "title": "Wangan Midnight Maximum Tune", 
-    "content": `
+    `,
+  },
+  wmmt: {
+    name: "WMMT",
+    link: "?wmmt",
+    title: "Wangan Midnight Maximum Tune",
+    content: `
       <div id="text-content">
         <p>
           This page is for resources relating to
@@ -525,6 +553,6 @@ const PAGES = {
           </li>
         </ul>
       </div>
-    `
-  }
+    `,
+  },
 };
