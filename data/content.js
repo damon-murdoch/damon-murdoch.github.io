@@ -506,6 +506,21 @@ const PAGES = {
         <ul>
           <li>
             <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/wmmt-writable-config-generator'>
+                Bayshore Writable Config Generator
+              </a>
+            </h4>
+            <p>
+              This application is a a simple JavaScript application for 
+              generating unique serial numbers for for AMCUS to use when
+              authenticating to private servers. Unique serial numbers 
+              prevent player overlaps when connecting to the servers.
+            </p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h4>
               <a class='link-light' href='http://www.dragapult.xyz/wmmt-car-editor'>
                 Wangan Midnight Maximum Tune Car Editor
               </a>
