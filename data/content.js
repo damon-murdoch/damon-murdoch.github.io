@@ -613,8 +613,8 @@ const PAGES = {
             More Information
           </h3>
           <p>
-            For more information about the project, as well as a breakdown of previous versions, please view 
-            the <a class='text-light' href='https://github.com/damon-murdoch/emerald-battle-revolution/blob/main/README.md'>readme file</a>
+            For more information about the project, as well as a breakdown of previous versions, please see 
+            the <a class='text-light' href='https://github.com/damon-murdoch/emerald-battle-revolution'>project repository</a>
           </p>
           <p>
             For a full list of wild encounters which can be found within the game, please see 
