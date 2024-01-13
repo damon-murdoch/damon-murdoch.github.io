@@ -570,4 +570,314 @@ const PAGES = {
       </div>
     `,
   },
+  ebr: {
+    name: "EBR",
+    link: "?ebr",
+    title: "Emerald Battle Revolution",
+    content: `
+      <div id="text-content">
+        <h4 class="text-center text-secondary">
+          Competitive Battle Frontier Focused Emerald Decompilation Project
+        </h4>
+        <h4 class="text-center">
+          <a class="text-secondary" href='https://github.com/damon-murdoch/emerald-battle-revolution/releases/'>
+            Download Latest Release
+          </a>
+        </h4>
+        <table class="table table-borderless text-center">
+          <tr>
+            <td>
+              <img src="img/ebr/gallery1.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery2.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery3.png">
+            </td>
+          </tr>
+        </table>
+        <div id='about'>
+          <h2 class="text-center">
+            About the Project
+          </h2>
+          <p>
+            Emerald Battle Revolution is a Pokemon Emerald decompilation project 
+            which uses the PokeEmerald Expansion project as a base. The goal for 
+            this project is to create a sandbox for players to enjoy the incredible 
+            post-game content in Emerald such as the Battle Frontier and other 
+            facilities using new Pokemon and simple methods for obtaining properly 
+            trained, competitive Pokemon easily without the need for modifying save files.
+          </p>
+          <h3 class="text-center">
+            More Information
+          </h3>
+          <p>
+            For more information about the project, as well as a breakdown of previous versions, please view 
+            the <a class='text-light' href='https://github.com/damon-murdoch/emerald-battle-revolution/blob/main/README.md'>readme file</a>
+          </p>
+          <p>
+            For a full list of wild encounters which can be found within the game, please see 
+            the <a class='text-light' href='https://github.com/damon-murdoch/emerald-battle-revolution/blob/main/ENCOUNTERS.md'>encounters file</a>
+          </p>
+          <p>
+            For more information about the Pokeemerald-Expanded project this software is based on, please see 
+            the <a class='text-light' href='https://github.com/rh-hideout/pokeemerald-expansion'>official repository</a>
+          </p>
+          <h2 class="text-center">
+            Gallery
+          </h2>
+          <p class='text-center'>
+            Please see below for some screenshots taken from the project.
+          </p>
+          <h3 class="text-center">
+            Menu Screenshots
+          </h3>
+          <table class="table table-borderless text-center">
+            <tr>
+              <td>
+                <img src="img/ebr/gallery71.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery72.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery73.png">
+              </td>
+            <tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery74.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery75.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery76.png">
+              </td>
+            <tr>
+          </table>
+          <h3 class="text-center">
+            Battle Screenshots
+          </h3>
+          <table class="table table-borderless text-center">
+            <tr>
+              <td>
+                <img src="img/ebr/gallery48.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery49.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery50.png">
+              </td>
+            <tr>
+            </tr>
+              <td>
+                <img src="img/ebr/gallery51.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery52.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery53.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery54.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery55.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery56.png">
+              </td>
+            <tr>
+            </tr>
+              <td>
+                <img src="img/ebr/gallery57.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery58.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery59.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery60.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery61.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery62.png">
+              </td>
+            <tr>
+            </tr>
+              <td>
+                <img src="img/ebr/gallery63.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery64.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery65.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery66.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery67.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery70.png">
+              </td>
+            <tr>
+          </table>
+          <h3 class="text-center">
+            Overworld Screenshots
+          </h3>
+          <table class="table table-borderless text-center">
+            <tr>
+              <td>
+                <img src="img/ebr/gallery6.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery5.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery7.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery9.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery10.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery11.png">
+              </td>
+            </tr> 
+            <tr>
+              <td>
+                <img src="img/ebr/gallery12.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery13.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery14.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery15.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery16.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery17.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery19.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery20.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery21.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery22.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery23.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery24.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery25.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery26.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery27.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery28.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery29.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery30.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery31.png">
+              </td>              
+              <td>
+                <img src="img/ebr/gallery33.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery34.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery35.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery37.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery38.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery43.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery44.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery45.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery39.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery41.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery42.png">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    `,
+  },
 };
