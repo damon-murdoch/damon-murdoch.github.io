@@ -609,6 +609,11 @@ const PAGES = {
             facilities using new Pokemon and simple methods for obtaining properly 
             trained, competitive Pokemon easily without the need for modifying save files.
           </p>
+          <p>
+            I've also made a web-based program for helping you recreate EV spreads ingame - 
+            the <a class='text-light' href='https://www.dragapult.xyz/ebr-ev-spread-utility/'>EBR EV Spread Utility</a>.
+            Just paste a showdown export in, and it'll generate a set of instructions for you.
+          </p>
           <h3 class="text-center">
             More Information
           </h3>
