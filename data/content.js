@@ -745,6 +745,33 @@ const PAGES = {
             <tr>
           </table>
           <h3 class="text-center">
+            Modern Battle Frontier Screenshots
+          </h3>
+          <table class="table table-borderless text-center">
+            </tr>
+              <td>
+                <img src="img/ebr/gallery77.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery78.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery79.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery80.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery81.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery82.png">
+              </td>
+            <tr>
+          </table>
+          <h3 class="text-center">
             Overworld Screenshots
           </h3>
           <table class="table table-borderless text-center">
