@@ -636,9 +636,122 @@ const PAGES = {
             Please see below for some screenshots taken from the project.
           </p>
           <h3 class="text-center">
-            Menu Screenshots
+            Modern Battle Factory Mode
+            <sup class='text-warning'>
+              <b>
+                New!
+              </b>
+            </sup>
           </h3>
           <table class="table table-borderless text-center">
+            <tr>
+              <td class='text-light' colspan=3>
+                Randomly generated sets of <i>almost</i> all new Pokemon are now available in the Battle Factory!
+                Restricted legendaries can be selected and faced in the Open Level Battle Mode!
+                All Mythicals except for Arceus and Deoxys can now be used in the Level 50 Battle Mode!
+              </td>
+            </tr>
+            </tr>
+              <td>
+                <img src="img/ebr/gallery83.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery84.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery85.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery86.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery87.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery88.png">
+              </td>
+            <tr>
+          </table>
+          <h3 class="text-center">
+            Modern Battle Frontier Mode
+          </h3>
+          <table class="table table-borderless text-center">
+            <tr>
+              <td class='text-light' colspan=3>
+                Randomly generated sets of <i>almost</i> all new Pokemon can be faced in all Battle Facilities, including the Battle Tents! 
+                Restricted legendaries can be selected and faced in the Open Level Battle Mode! 
+                All Mythicals except for Arceus and Deoxys can now be used in the Level 50 Battle Mode!
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery77.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery78.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery79.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery80.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery81.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery82.png">
+              </td>
+            <tr>
+          </table>
+          <h3 class="text-center">
+            Modern Battle Mechanics
+          </h3>
+          <table class="table table-borderless text-center">
+            <tr>
+              <td class='text-light' colspan=3>
+                <i>Almost</i> all modern Pokemon, moves, items and mechanics have been implemented through the 
+                <a class='text-secondary' href='https://github.com/rh-hideout/pokeemerald-expansion'>PokeEmerald Expansion Project!</a>
+                New mechanics and features are implemented by the community regularly! Test your teambuilding skills and make the 
+                strongest team you can!
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery48.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery51.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery52.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="img/ebr/gallery56.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery63.png">
+              </td>
+              <td>
+                <img src="img/ebr/gallery64.png">
+              </td>
+            </tr>
+          </table>
+          <h3 class="text-center">
+            Expanded Box and Party Menus
+          </h3>
+          <table class="table table-borderless text-center">
+          <tr>
+            <td class='text-light' colspan=3>
+              Check Pokemon IVs, EVs and more quickly and easily thanks to many interface quality-of-life improvements!
+            </td>
+          </tr>
             <tr>
               <td>
                 <img src="img/ebr/gallery71.png">
@@ -663,250 +776,61 @@ const PAGES = {
             <tr>
           </table>
           <h3 class="text-center">
-            Battle Screenshots
+            Battle Frontier Underground
           </h3>
           <table class="table table-borderless text-center">
-            <tr>
-              <td>
-                <img src="img/ebr/gallery48.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery49.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery50.png">
-              </td>
-            <tr>
-            </tr>
-              <td>
-                <img src="img/ebr/gallery51.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery52.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery53.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery54.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery55.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery56.png">
-              </td>
-            <tr>
-            </tr>
-              <td>
-                <img src="img/ebr/gallery57.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery58.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery59.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery60.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery61.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery62.png">
-              </td>
-            <tr>
-            </tr>
-              <td>
-                <img src="img/ebr/gallery63.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery64.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery65.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery66.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery67.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery70.png">
-              </td>
-            <tr>
-          </table>
-          <h3 class="text-center">
-            Modern Battle Frontier Screenshots
-          </h3>
-          <table class="table table-borderless text-center">
-            </tr>
-              <td>
-                <img src="img/ebr/gallery77.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery78.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery79.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery80.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery81.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery82.png">
-              </td>
-            <tr>
-          </table>
-          <h3 class="text-center">
-            Overworld Screenshots
-          </h3>
-          <table class="table table-borderless text-center">
-            <tr>
-              <td>
-                <img src="img/ebr/gallery6.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery5.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery7.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery9.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery10.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery11.png">
-              </td>
-            </tr> 
-            <tr>
-              <td>
-                <img src="img/ebr/gallery12.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery13.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery14.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery15.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery16.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery17.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery19.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery20.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery21.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery22.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery23.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery24.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery25.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery26.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery27.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery28.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery29.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery30.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery31.png">
-              </td>              
-              <td>
-                <img src="img/ebr/gallery33.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery34.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery35.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery37.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery38.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery43.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery44.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery45.png">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ebr/gallery39.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery41.png">
-              </td>
-              <td>
-                <img src="img/ebr/gallery42.png">
-              </td>
-            </tr>
+          <tr>
+            <td class='text-light' colspan=3>
+              Acquire everything you need to train a competitive team quickly and easily using the Battle Frontier Underground!
+              Complete with many shops, utilities and other facilities such as a Day Care, Pokemon Center and even its own Game Corner!
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="img/ebr/gallery89.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery9.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery28.png">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="img/ebr/gallery29.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery30.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery31.png">
+            </td>              
+          </tr>
+          <tr>
+            <td>
+              <img src="img/ebr/gallery39.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery45.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery44.png">
+            </td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td>
+              <img src="img/ebr/gallery41.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery42.png">
+            </td>
+            <td>
+              <img src="img/ebr/gallery17.png">
+            </td>
+          </tr>
           </table>
         </div>
       </div>
