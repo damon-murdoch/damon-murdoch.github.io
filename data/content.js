@@ -40,18 +40,13 @@ const PAGES = {
             </a>
           </li>
           <li>
+            <a class='link-secondary' href='http://www.dragapult.xyz/break-my-team'>
+              Pokémon VG Team Matchup Tool
+            </a>
+          </li>
+          <li>
             <a class='link-secondary' href='https://www.dragapult.xyz/pokemon-teams'>
               Pokémon VG Teams Archive
-            </a>
-          </li>
-          <li>
-            <a class='link-secondary' href='https://sir-scrubbington.hatenablog.com/'>
-              Pokémon VGC Personal Blog
-            </a>
-          </li>
-          <li>
-            <a class='link-secondary' href='https://www.dragapult.xyz/pokemon-decks'>
-              Pokémon TCG Deck Collection
             </a>
           </li>
         </ul>
@@ -78,23 +73,10 @@ const PAGES = {
     content: `
         <div id="text-content">
           <p>
-            This page is for resources related to the Pokémon
-            Video Game Championship series, the official tournament
-            format for competitive Pokémon since 2008. While rules
-            vary between seasons, the consistent rules are that all
-            matches are performed in the Double Battle format and
-            each player brings four of their six Pokémon to each 
-            game. Typically, you are locked to using only one 
-            team per tournament and matches are usually played 
-            in a best-of-three format, where each player is 
-            allowed to pick different Pokémon within their 
-            team to bring to each game. 
-          </p>
-          <p>
-            I have personally competed in Pokémon VGC 
-            tournaments since 2015, and have been writing 
-            reports and developing software for the community
-            since 2016. These resources are listed below.
+            This page is for resources related to the Pokémon Video Game Championship 
+            series, the official tournament format for competitive Pokémon since 2008.
+            I have personally competed in Pokémon VGC tournaments since 2015, and have 
+            been writing reports and developing software for the community since 2016.
           </p>
         </div>
         <div>
@@ -120,6 +102,18 @@ const PAGES = {
               is not perfect, and I am still working through adding original creators and 
               descriptions to many teams due to the sheer volume. I'm open to team 
               submissions, however please keep in mind I do not preserve nicknames.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/break-my-team'>
+                Pokémon Team Matchup Tool
+              </a>
+            </h4>
+            <p>
+              The Break my Team tool is a tool for testing your team's matchups to other threats in the metagame
+              as well as speed tiers, report generation, and more. This program supports VGC formats going all
+              the way back to 2014, up to the most recent formats (Currently, Regulation G).
             </p>
           </li>
           <li>
@@ -151,6 +145,20 @@ const PAGES = {
               all possible combinations sorted by the highest base stat
               total results. Please note, this software has not yet been 
               updated to support new Pokemon and moves from Generation 9.
+            </p>
+          </li>
+          <li>
+            <h4>
+              <a class='link-light' href='https://github.com/damon-murdoch/ev-spread-helper'>
+                Pokémon EV Spread Helper
+              </a>
+            </h4>
+            <p>
+              The Pokemon EV Spread Helper is a web application designed to assist 
+              users in generating instructions for recreating Pokémon sets in-game. 
+              Originally developed for use with the Pokémon Emerald Battle Revolution 
+              Decompilation Project, the tool now also supports Pokémon sets from the 
+              main series games, including Generations 8 and 9.
             </p>
           </li>
           <li>
@@ -328,24 +336,10 @@ const PAGES = {
     content: `
       <div id="text-content">
         <p>
-          This page is for content relating to the Pokémon
-          Trading Card Game. In official competitive play, 
-          decks are required to have exactly 60 cards and 
-          must only contain cards which are legal within
-          the current standard or expanded rotation,
-          depending on the tournament format. Games are 
-          typically best-of-three, but best of one is also
-          common in large online tournaments. Deck changes
-          are typically not allowed mid-tournament. 
-        </p>
-        <p>
-          I have personally competed in the competitive 
-          Pokémon TCG scene since 2016, however I have 
-          been unable to play any large events due to
-          VGC and TCG running at the same time. However,
-          I have recently started developing software and
-          resources for the Pokémon TCG. These resoruces
-          are listed below.
+          This page is for content relating to the Pokémon Trading Card Game. I competed 
+          in competitive Pokémon TCG tournaments from 2016 to 2020, however I was unable
+          to play any large events due to VGC and TCG running at the same time. I have
+          also worked on a few small projects related to the Pokémon TCG.
         </p>
       </div>
       <ul>
@@ -391,13 +385,7 @@ const PAGES = {
           This page is for resources relating to Super
           Smash Brothers, which is a platform fighting game 
           developed by Sora Ltd. and directed by Masahiro
-          Sakurai. All Smash games have some level of play
-          at a competitive level, primarily Super Smash 
-          Bros. Melee for the Nintendo Gamecube and Super
-          Smash Bros. Ultimate for the Nintendo Switch. 
-        </p>
-        <p>
-          While I don't personally compete in Smash
+          Sakurai. While I don't personally compete in Smash
           at any competitive level, I have attended a few
           local tournaments and have enjoyed watching majors
           since 2016. I have made one piece of software
@@ -406,9 +394,6 @@ const PAGES = {
           <a class='link-light' href='https://twitter.com/Arahpthos'>
             Arahpthos.
           </a>
-          If the opportunity arises, I may develop more
-          for this game in the future. More information 
-          and links to this software can be found below.
         </p>
       </div>
       <ul>
@@ -438,29 +423,13 @@ const PAGES = {
     content: `
       <div id="text-content">
         <p>
-          This page is for resources relating to
-          Wangan Midnight Maximum Tune, which is
-          a series of arcade racing games developed 
-          and published by NAMCO since 2004. It is 
-          based on the popular manga series
-          <i> Wangan Midnight. </i> The games
-          are typically played in arcades, 
-          using a tuning card or Banapassport
-          to track the user's cars and progress.
-          There have been 6 main games in the 
-          series, with the most recent being 6RR 
-          in Asia and 5DX+ in North America.
-        </p>
-        <p>
-          I have been playing Maximum Tune since 2019 in a 
-          casual capacity, however I have been playing more
-          competitively since early 2021. I have worked on 
-          several pieces of software related to Maximum Tune, 
-          primarily in the emulation community. Please keep 
-          in mind, however much of this software is no longer
-          maintained. I have also created resources with 
-          information for the traditional game. These 
-          resources can befound below.
+          This page is for resources relating to Wangan Midnight Maximum Tune, 
+          which is a series of arcade racing games developed and published by 
+          Bandai Namco since 2004. I have been playing Maximum Tune since 2019 
+          in a casual capacity, however I have been playing more competitively 
+          since early 2021. I have worked on several pieces of software related
+          to Maximum Tune, primarily in the emulation community. Please keep in 
+          mind, however much of this software is no longer maintained.
         </p>
         <div>
           <h3>
