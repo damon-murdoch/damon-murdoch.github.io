@@ -6,18 +6,16 @@ const PAGES = {
     content: `
       <div id="text-content">
         <p>
-          Hello and welcome to Dragapult.xyz! My name is Damon and
+          Hello and welcome to my website! My name is Damon and
           I'm a software developer from Queensland, Australia. For years
           I have been a competitor in both the Pokemon Video Game and 
-          Trading Card Game Championships, as well as other games such
-          as Wangan Midnight Maximum Tune and the Umamusume mobile game.
+          Trading Card Game Championships.
         </p>
         <p>
-          At home, I dedicate a large amount of my time to working on
-          software projects, of which many are linked on this page. 
-          Most of these projects are related to my hobbies, such 
-          as a Pokémon type coverage calculator, ev spread optimiser 
-          and a defensive tera type calculator. Links to these 
+          I dedicate a large amount of my time to working on software projects, 
+          of which many are linked on this page. Most of these projects are 
+          related to my hobbies, such as a Pokémon type coverage calculator, 
+          ev spread optimiser and a defensive tera type calculator. Links to these 
           resources and many more can be found in the pages above.
         </p>
         <p>
@@ -45,12 +43,6 @@ const PAGES = {
             </a>
           </li>
         </ul>
-        <p>
-          I will continue to update this page with new features and resources as 
-          they are developed, and I will do my best to keep them up to date. 
-          However, due to limited time and many projects sometimes it can 
-          take some time for changes to be made.
-        </p>
         <p>
           Once again, thanks for checking out my website.
           -
