@@ -9,14 +9,9 @@ const PAGES = {
           Hello and welcome to my website! My name is Damon and I'm a software 
           developer from Queensland, Australia.
 
-          For years I have been a competitor in the Pokémon Video Game Championship Series 
-          and I have worked on many projects related to my hobbies such as Pokemon VGC, TCG and Umamusume.
+          For years I have worked on many projects related to my hobbies such as Pokemon VGC, TCG and Umamusume.
 
-          I also have a blog where I write team reports, season write-ups and other articles 
-          about my hobbies when I have time.
-        </p>
-        <p>
-          Links to these resources and many more can be found in the pages above.
+          I also have a blog where I write team reports, season write-ups and other articles when I have time.
         </p>
         <p>
           You can also find me on these websites:
@@ -123,6 +118,19 @@ const PAGES = {
               users in generating instructions for recreating Pokémon sets in-game.
             </p>
           </li>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/pokemon-teams'>
+                Pokémon VGC Team Library
+              </a>
+            </h4>
+            <p>
+              An archive of teams I've been keeping since 2016, with hundreds of 
+              teams from different formats. Many are teams that myself or others
+              have used at tournaments, either with recreated spreads or the 
+              originals where possible.
+            </p>
+          </li>
         </ul>
         <div>
           <h3>
@@ -158,14 +166,25 @@ const PAGES = {
               heavily outdated, and will be updated in the near future.
             </p>
           </li>
+          <li>
+            <h4>
+              <a class='link-light' href='http://www.dragapult.xyz/pokemon-decks'>
+                Pokémon TCG Deck Collection
+              </a>
+            </h4>
+            <p>
+              A library of deck lists from my personal collection, including a buylist 
+              for cards which are required to finish them. Contains full card counts 
+              and colour coding indicating completeness.
+            </p>
+          </li>
         </ul>
         <div>
           <h3>
             Archived Resources
           </h3>
           <p>
-            These tools have all been archived, and are no longer
-            being maintained. They are only listed here for legacy purposes.
+            These tools have all been archived, and are no longer maintained.
           </p>
         </div>
         <ul>
@@ -217,62 +236,7 @@ const PAGES = {
               - Superceded by DhSufi's <a class='text-light' href='https://dhsufi.github.io/PokemonTeamListCreator/'>Pokémon Team List Creator</a>
             </p>
           </li>
-          <li>
-            <a class='link-light' href='https://github.com/damon-murdoch/psmanage'>
-                Pokémon Showdown Manager
-              </a>
-            <p>
-              - No longer maintained
-            </p>
-          </li>
-          <li>
-            <a class='link-light' href='http://www.dragapult.xyz/set-scheduler'>
-              Set Scheduler
-            </a>
-            <p>
-              - No longer maintained
-            </p>
-          </li>
         </ul>
-    `,
-  },
-  archives: {
-    name: "Archives",
-    link: "?archives",
-    title: "Archives",
-    content: `
-      <div id="text-content">
-        <p>
-          Please see below for a list of archives I've created. 
-        </p>
-      </div>
-      <ul>
-        <li>
-          <h4>
-            <a class='link-light' href='http://www.dragapult.xyz/pokemon-teams'>
-              Pokémon Teams
-            </a>
-          </h4>
-          <p>
-            An archive of teams I've been keeping since 2016, with hundreds of 
-            teams from different formats. Many are teams that myself or others
-            have used at tournaments, either with recreated spreads or the 
-            originals where possible.
-          </p>
-        </li>
-        <li>
-          <h4>
-            <a class='link-light' href='http://www.dragapult.xyz/pokemon-decks'>
-              Pokémon Decks
-            </a>
-          </h4>
-          <p>
-            A library of deck lists from my personal collection, including a buylist 
-            for cards which are required to finish them. Contains full card counts 
-            and colour coding indicating completeness.
-          </p>
-        </li>
-      </ul>
     `,
   },
   blog: {
